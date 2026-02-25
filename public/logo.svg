@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="450" height="156" role="img" aria-label="Mobil Tyre Fitt">
+  <defs>
+    <style>
+      .navy { fill: #1f2a44; }
+      .orange { fill: #f5a623; }
+      /* Smaller wordmark sizes */
+      .mobil { font: 900 100px 'Montserrat','Poppins','Segoe UI',Arial,sans-serif; letter-spacing: 2px; }
+      .tyre  { font: 900 100px 'Montserrat','Poppins','Segoe UI',Arial,sans-serif; letter-spacing: 2px; }
+      /* Keep the 24/7 tagline red and same size as last version */
+      .tagred { fill: #e53935; font: 800 80px 'Montserrat','Poppins','Segoe UI',Arial,sans-serif; letter-spacing: 0.5px; }
+    </style>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(60,60)">
+    <circle cx="100" cy="100" r="90" fill="none" stroke="#1f2a44" stroke-width="18"/>
+    <circle cx="100" cy="100" r="32" fill="#1f2a44"/>
+    <circle cx="100" cy="100" r="62" fill="none" stroke="#f5a623" stroke-width="18"
+            stroke-linecap="round" stroke-dasharray="110 400" transform="rotate(-32 100 100)"/>
+  </g>
+
+  <!-- Wordmark (smaller) -->
+  <text x="280" y="120" class="mobil orange">MOBIL</text>
+  <text x="280" y="210" class="tyre navy">TYRE FITT</text>
+  <!-- Tagline (unchanged placement but now visually further from smaller wordmark) -->
+  <text x="280" y="280" class="tagred">24/7</text>
+</svg>
