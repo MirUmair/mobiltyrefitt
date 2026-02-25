@@ -3,7 +3,6 @@ import { Outlet, useLocation } from "react-router-dom";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import CartDrawer from "./components/CartDrawer";
 import BrandSlider from "./components/BrandSlider";
 import ReviewsSlider from "./components/ReviewsSlider";
 import InstaGallery from "./components/InstaGallery";
@@ -62,7 +61,6 @@ export default function App() {
       )}
 
       <Footer />
-      <CartDrawer />
     </div>
   );
 }
