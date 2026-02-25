@@ -9,7 +9,9 @@ interface SEOProps {
 const SEO: React.FC<SEOProps> = ({ title, description }) => {
     const location = useLocation();
     const siteUrl = "https://mobiltyrefitt.com";
-    const canonicalUrl = `${siteUrl}${location.pathname}${location.search}`;
+    // Remove any trailing slashes and ensure only one slash between siteUrl and pathname
+    const cleanPath = location.pathname === "/" ? "" : location.pathname;
+    const canonicalUrl = `${siteUrl}${cleanPath}`;
 
     useEffect(() => {
         // Update document title

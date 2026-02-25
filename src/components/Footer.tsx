@@ -26,7 +26,7 @@ function Column({ title, items }: { title: string; items: string[] }) {
       <ul className="space-y-3">
         {(expanded ? items : preview).map((t) => (
           <li key={t}>
-            <a href="#" className="text-gray-300 hover:text-white text-sm">
+            <a href="/mobile-tyre-fitting" className="text-gray-300 hover:text-white text-sm">
               {t}
             </a>
           </li>
@@ -213,10 +213,10 @@ export default function FooterSection() {
           <div className="mt-6">
             <p className="text-white font-semibold">Follow Us On:</p>
             <div className="mt-3 flex items-center gap-3">
-              <a href="#" className="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center" aria-label="Facebook">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center" aria-label="Instagram">
                 <Instagram className="w-5 h-5" />
               </a>
             </div>
@@ -258,8 +258,8 @@ export default function FooterSection() {
           </div>
 
           <div className="text-sm text-gray-400 flex items-center gap-5 flex-wrap">
-            <a href="#" className="hover:text-white">Privacy Policy</a>
-            <a href="#" className="hover:text-white">Terms & Conditions</a>
+            <a href="/contact" className="hover:text-white">Privacy Policy</a>
+            <a href="/contact" className="hover:text-white">Terms & Conditions</a>
             <span className="opacity-70">© {new Date().getFullYear()} Mobil Tyre Fitt</span>
           </div>
         </div>
