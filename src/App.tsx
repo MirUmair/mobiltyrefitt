@@ -16,6 +16,7 @@ import StatsAndBrandsSection from "./components/StatsAndBrandsSection";
 import FAQSection from "./components/FAQSection";
 import ServiceAreasGrid from "./components/ServiceAreasGrid";
 import Hero from "./components/Hero";
+import SEO from "./components/SEO";
 
 export default function App() {
   const location = useLocation();
@@ -33,6 +34,10 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-accent-50 to-brand-50">
+      <SEO
+        title="Mobile Tyre Fitt | Mobile Tyre Repair & Replacement in UK"
+        description="Mobile Tyre Fitt offers fast, reliable mobile tyre repair and replacement at your location. Emergency tyre fitting and puncture repair service across the UK."
+      />
       <Header />
 
       {/* If NOT home page → render routed page */}

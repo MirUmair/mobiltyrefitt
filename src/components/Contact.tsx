@@ -2,12 +2,17 @@ import React from "react";
 import { MapPin, Phone, Clock } from "lucide-react";
 import MobileTyreFittingHero from "./Services/MobileTyreFittingHero";
 import ReviewsSlider from "./ReviewsSlider";
+import SEO from "./SEO";
 
 export default function ContactSection() {
     const mapSrc =
         "https://www.google.com/maps?q=51.62931288925842,-0.7810530893610297&z=18&output=embed";
     return (
         <section className="w-full  bg-white">
+            <SEO
+                title="Contact Us | Mobile Tyre Fitt"
+                description="Contact Mobil Tyre Fitt for expert advice, bookings, and quality car care. We are available 24/7."
+            />
             <MobileTyreFittingHero />
             {/* ---------------- HEADER ---------------- */}
             <h2 className="text-center text-3xl font-bold mt-8">Get In Touch</h2>

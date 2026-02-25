@@ -9,6 +9,7 @@ import WhyChoseUs from "../WhyChoseUs";
 import ReviewsSlider from "../ReviewsSlider";
 import MakeAppoinment from "../MakeAppoinment";
 import FittingService from "../FittingService";
+import SEO from "../SEO";
 
 import {
   logo1, logo2, logo3, logo4, logo5, logo6,
@@ -33,6 +34,10 @@ export default function App() {
   ];
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-accent-50 to-brand-50">
+      <SEO
+        title="Local Mobile Tyre Fitting | Mobile Tyre Fitt"
+        description="Fast and reliable mobile tyre fitting services in your area. Emergency callouts available 24/7."
+      />
       <MobileTyreFittingHero />
       <Features brands={tyrebrands} heading={"Certified & Trusted Tyre Brands"} />
       <Features1 />

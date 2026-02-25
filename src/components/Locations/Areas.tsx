@@ -3,6 +3,7 @@ import MobileTyreFittingHero from "../Services/MobileTyreFittingHero";
 import StepsLanding from "../StepsLanding";
 import ReviewsSlider from "../ReviewsSlider";
 import MakeAppoinment from "../MakeAppoinment";
+import SEO from "../SEO";
 
 
 const areasData = {
@@ -37,6 +38,10 @@ const areasData = {
 export default function AreasWeServe() {
     return (
         <section className="w-full  bg-white">
+            <SEO
+                title="Areas We Serve | Mobile Tyre Fitt"
+                description="Explore the wide range of areas we serve across the UK for mobile tyre fitting and repair."
+            />
             {/* Header */}
             <MobileTyreFittingHero />
             <h2 className="text-center text-3xl font-bold mb-14 mt-8">Areas We Serve</h2>

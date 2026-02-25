@@ -11,9 +11,9 @@ import Areas from "./components/Locations/Areas"
 import Area from "./components/Locations/MobileAreas"
 
 
-// Your component page
 import MobileTyreFitting from "./components/Services/MobileTyreFitting";
 import Contact from "./components/Contact";
+import Checkout from "./pages/Checkout";
 
 
 const router = createBrowserRouter([
@@ -24,12 +24,9 @@ const router = createBrowserRouter([
 
 
 
-      // ⭐ FIXED ROUTE FOR YOUR NAVLINK
       { path: "mobile-tyre-fitting", element: <MobileTyreFitting /> },
-      { path: "mobile-tyre-fitting", element: <MobileTyreFitting /> },
-      { path: "mobile-tyre-fitting", element: <MobileTyreFitting /> },
-
       { path: "contact", element: <Contact /> },
+      { path: "checkout", element: <Checkout /> },
       { path: "allareas", element: <Areas /> },
       { path: "areas", element: <Area /> },
 
