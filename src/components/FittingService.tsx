@@ -132,14 +132,14 @@ export default function ServicesGrid() {
         <div className="sticky bottom-4 mt-10">
           <div className="mx-auto max-w-4xl flex flex-col sm:flex-row gap-4 sm:gap-6 items-stretch sm:items-center justify-center">
             <a
-              href="tel:+44 7868 258333"
+              href="tel:02080901037"
               className="inline-flex items-center justify-center rounded-2xl px-8 py-4 text-base font-semibold text-white bg-rose-600 hover:bg-rose-500 active:bg-rose-700 shadow-lg w-full sm:w-auto"
             >
               <Phone className="mr-2 h-5 w-5" /> Call Us Now
             </a>
 
             <a
-              href="https://wa.me/447868258333"
+              href="https://wa.me/message/XRYSBZQO2AQWM1"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center rounded-2xl px-8 py-4 text-base font-semibold 
@@ -156,7 +156,7 @@ export default function ServicesGrid() {
 
       {/* Floating WhatsApp bubble */}
       <a
-        href="https://wa.me/447868258333"
+        href="https://wa.me/message/XRYSBZQO2AQWM1"
         target="_blank"
         rel="noreferrer"
         className="fixed right-5 bottom-5 z-40 inline-flex items-center justify-center w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-400 shadow-lg"

@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, useLocation } from "react-router-dom";
-
+//WebsiteBuilder Site
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import BrandSlider from "./components/BrandSlider";
@@ -33,10 +33,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-accent-50 to-brand-50">
-      <SEO
-        title="Mobile Tyre Fitt | Mobile Tyre Repair & Replacement in UK"
-        description="Mobile Tyre Fitt offers fast, reliable mobile tyre repair and replacement at your location. Emergency tyre fitting and puncture repair service across the UK."
-      />
       <Header />
 
       {/* If NOT home page → render routed page */}
@@ -45,6 +41,10 @@ export default function App() {
       {/* If home page → render full homepage layout */}
       {isHome && (
         <>
+          <SEO
+            title="Mobile Tyre Fitt | 24/7 Mobile Tyre Repair & Replacement UK"
+            description="Fast, reliable mobile tyre fitting & repair at your home, office or roadside. Usually 30-60 min arrival across London and UK. Call 07868 258333."
+          />
           <Hero />
           <BrandSlider />
           <ReviewsSlider />

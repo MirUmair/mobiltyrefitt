@@ -108,7 +108,7 @@ export default function ContactSection() {
                     <Phone size={34} className="text-white mb-4" />
                     <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
 
-                    <p>Call Us at: +44 7868 258333</p>
+                    <p>Call Us at: 02080901037</p>
                     <p>WhatsApp: +44 7868 258333</p>
                     <p>Email: mobiltyrefitt@hotmail.com</p>
                 </div>
@@ -234,7 +234,7 @@ export default function ContactSection() {
                         {status === "error" && (
                             <div className="flex items-center gap-2 text-rose-600 bg-rose-50 p-4 rounded-xl font-medium animate-fade-in">
                                 <AlertCircle className="h-5 w-5" />
-                                Failed to send. Please try calling us directly at +44 7868 258333.
+                                Failed to send. Please try calling us directly at 02080901037.
                             </div>
                         )}
                     </form>

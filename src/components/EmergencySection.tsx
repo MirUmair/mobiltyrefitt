@@ -118,7 +118,7 @@ export default function EmergencyHero() {
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/442080901010"
+        href="https://wa.me/message/XRYSBZQO2AQWM1"
         className="fixed right-5 bottom-5 w-14 h-14 rounded-full bg-green-500 
                    hover:bg-green-400 flex justify-center items-center shadow-xl"
         target="_blank"

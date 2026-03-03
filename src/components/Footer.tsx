@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Mail, Facebook, Instagram, ArrowRight, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -26,9 +27,9 @@ function Column({ title, items }: { title: string; items: string[] }) {
       <ul className="space-y-3">
         {(expanded ? items : preview).map((t) => (
           <li key={t}>
-            <a href="/mobile-tyre-fitting" className="text-gray-300 hover:text-white text-sm">
+            <Link to="/mobile-tyre-fitting" className="text-gray-300 hover:text-white text-sm">
               {t}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
@@ -267,7 +268,7 @@ export default function FooterSection() {
 
       {/* Optional floating WhatsApp bubble */}
       <a
-        href="https://wa.me/442080901010"
+        href="https://wa.me/message/XRYSBZQO2AQWM1"
         target="_blank"
         rel="noreferrer"
         className="fixed right-5 bottom-5 z-40 inline-flex items-center justify-center w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-400 shadow-lg"

@@ -32,7 +32,7 @@ export default function MobileTyreFittingHero() {
                         {/* CTA Buttons */}
                         <div className="mt-8 flex flex-wrap gap-4">
                             <a
-                                href="tel:+447868258333"
+                                href="tel:02080901037"
                                 className="px-7 py-3 bg-black/80 hover:bg-black text-white rounded-full flex items-center gap-3 text-lg font-semibold transition shadow-[0_4px_15px_rgba(0,0,0,0.4)] hover:shadow-[0_4px_20px_rgba(0,0,0,0.6)]"
                             >
                                 <PhoneCall size={22} />
@@ -40,7 +40,7 @@ export default function MobileTyreFittingHero() {
                                 <ArrowRight size={20} className="opacity-70" />
                             </a>
                             <a
-                                href="https://wa.me/447868258333"
+                                href="https://wa.me/message/XRYSBZQO2AQWM1"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="inline-flex items-center justify-center rounded-2xl px-8 py-4 text-base font-semibold 

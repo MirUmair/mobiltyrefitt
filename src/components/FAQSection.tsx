@@ -98,7 +98,7 @@ export default function FAQSection() {
 
             {/* Floating WhatsApp bubble */}
             <a
-                href="https://wa.me/442080901010"
+                href="https://wa.me/message/XRYSBZQO2AQWM1"
                 target="_blank"
                 rel="noreferrer"
                 className="fixed right-5 bottom-5 z-40 inline-flex items-center justify-center w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-400 shadow-lg"

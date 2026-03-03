@@ -241,11 +241,11 @@ export default function Header() {
 
           {/* CALL CTA */}
           <a
-            href="tel:+447868258333"
+            href="tel:02080901037"
             className="ml-3 rounded-full bg-rose-500 text-white font-bold px-5 py-2 shadow hover:bg-rose-600 inline-flex items-center gap-2"
           >
             <span className="hidden sm:inline">Call</span>
-            <AnimatedPhoneNumber>+44 7868 258333</AnimatedPhoneNumber>
+            <AnimatedPhoneNumber>02080901037</AnimatedPhoneNumber>
           </a>
         </nav>
 
@@ -374,12 +374,12 @@ export default function Header() {
 
             {/* CALL CTA (MOBILE) */}
             <a
-              href="tel:+447868258333"
+              href="tel:02080901037"
               className="inline-flex items-center gap-2 rounded-full bg-rose-500 text-white font-bold px-5 py-2 shadow hover:bg-rose-600"
             >
               <span>Call</span>
               <AnimatedPhoneNumber small>
-                +44 7868 258333
+                02080901037
               </AnimatedPhoneNumber>
             </a>
           </div>

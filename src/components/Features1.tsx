@@ -60,7 +60,7 @@ export default function MobileTyreHero({ brands = [] }: MobileTyreHeroProps) {
                     {/* CTA BUTTONS */}
                     <div className="mt-12 flex flex-wrap gap-6">
                         <a
-                            href="tel:+447868258333"
+                            href="tel:02080901037"
                             className="px-10 py-5 bg-red-600 hover:bg-red-700 text-white rounded-full flex items-center justify-center gap-4 text-xl font-semibold shadow-xl transition"
                         >
                             Call Us Now
@@ -68,7 +68,7 @@ export default function MobileTyreHero({ brands = [] }: MobileTyreHeroProps) {
                         </a>
 
                         <a
-                            href="https://wa.me/447868258333"
+                            href="https://wa.me/message/XRYSBZQO2AQWM1"
                             target="_blank"
                             rel="noreferrer"
                             className="inline-flex items-center justify-center rounded-2xl px-8 py-4 text-base font-semibold 

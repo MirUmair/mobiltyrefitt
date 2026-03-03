@@ -186,14 +186,14 @@ export default function StepsLanding() {
                     className="mt-14 flex flex-col sm:flex-row gap-5 justify-center items-center"
                 >
                     <a
-                        href="tel:+447868258333"
+                        href="tel:02080901037"
                         className="w-full sm:w-auto inline-flex items-center justify-center rounded-2xl px-10 py-5 text-lg font-semibold text-white bg-rose-600 hover:bg-rose-500 shadow-xl"
                     >
                         <Phone className="mr-2 h-6 w-6" /> Call Us Now
                     </a>
 
                     <a
-                        href="https://wa.me/447868258333"
+                        href="https://wa.me/message/XRYSBZQO2AQWM1"
                         target="_blank"
                         rel="noreferrer"
                         className="inline-flex items-center justify-center rounded-2xl px-10 py-5 text-lg font-semibold 

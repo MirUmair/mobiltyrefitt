@@ -119,7 +119,7 @@ export default function HeroClean() {
               className="mt-8 flex flex-col sm:flex-row gap-4"
             >
               <a
-                href="tel:+447868258333"
+                href="tel:02080901037"
                 className="inline-flex items-center justify-center gap-2 rounded-full px-10 py-5 bg-rose-600 hover:bg-rose-700 text-white text-lg font-semibold shadow-md transition flex-1 sm:flex-none"
               >
                 <Phone className="w-5 h-5" />
@@ -127,7 +127,7 @@ export default function HeroClean() {
               </a>
 
               <a
-                href="https://wa.me/447868258333"
+                href="https://wa.me/message/XRYSBZQO2AQWM1"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center justify-center rounded-2xl px-8 py-4 text-base font-semibold 

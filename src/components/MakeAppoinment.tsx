@@ -94,7 +94,7 @@ export default function EmergencyBanner() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.6, ease: "easeOut" }}
                             viewport={{ once: false }}
-                            href="tel:+447868258333"
+                            href="tel:02080901037"
                             className="bg-black text-white px-8 py-4 text-lg font-semibold rounded-full
                                        shadow-xl w-full md:w-1/2 flex justify-center items-center gap-3
                                        hover:bg-gray-900 transition"
@@ -108,7 +108,7 @@ export default function EmergencyBanner() {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.6, ease: "easeOut" }}
                             viewport={{ once: false }}
-                            href="https://wa.me/447868258333"
+                            href="https://wa.me/message/XRYSBZQO2AQWM1"
                             target="_blank"
                             rel="noreferrer"
                             className="inline-flex items-center justify-center rounded-2xl px-8 py-4 text-base

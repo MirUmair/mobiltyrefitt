@@ -94,13 +94,13 @@ export default function FastestServiceHero() {
                             {/* CTA buttons */}
                             <div className="mt-6 flex flex-col sm:flex-row gap-4 sm:gap-5">
                                 <a
-                                    href="tel:+44 7868 258333"
+                                    href="tel:02080901037"
                                     className="inline-flex items-center justify-center gap-2 rounded-2xl bg-white text-rose-600 hover:bg-white/90 font-semibold px-6 py-3 w-full sm:w-auto"
                                 >
                                     <Phone className="h-5 w-5" /> Call Us Now
                                 </a>
                                 <a
-                                    href="https://wa.me/447868258333"
+                                    href="https://wa.me/message/XRYSBZQO2AQWM1"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="inline-flex items-center justify-center rounded-2xl px-8 py-4 text-base font-semibold 
@@ -135,7 +135,7 @@ export default function FastestServiceHero() {
 
             {/* Floating WhatsApp bubble (optional) */}
             <a
-                href="https://wa.me/442080901010"
+                href="https://wa.me/message/XRYSBZQO2AQWM1"
                 target="_blank"
                 rel="noreferrer"
                 className="fixed right-5 bottom-5 z-40 inline-flex items-center justify-center w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-400 shadow-lg"

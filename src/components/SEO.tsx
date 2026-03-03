@@ -18,10 +18,13 @@ const SEO: React.FC<SEOProps> = ({ title, description }) => {
         document.title = title;
 
         // Update meta description
-        const metaDescription = document.querySelector('meta[name="description"]');
-        if (metaDescription) {
-            metaDescription.setAttribute("content", description || "Mobile Tyre Fitt offers fast, reliable mobile tyre repair and replacement across the UK.");
+        let metaDescription = document.querySelector('meta[name="description"]');
+        if (!metaDescription) {
+            metaDescription = document.createElement("meta");
+            metaDescription.setAttribute("name", "description");
+            document.head.appendChild(metaDescription);
         }
+        metaDescription.setAttribute("content", description || "Mobile Tyre Fitt offers fast, reliable mobile tyre repair and replacement across the UK.");
 
         // Manage canonical link
         let canonicalLink = document.querySelector('link[rel="canonical"]');
@@ -33,11 +36,14 @@ const SEO: React.FC<SEOProps> = ({ title, description }) => {
         canonicalLink.setAttribute("href", canonicalUrl);
 
         // Update OG tags
-        const ogUrl = document.querySelector('meta[property="og:url"]');
+        let ogUrl = document.querySelector('meta[property="og:url"]');
         if (ogUrl) ogUrl.setAttribute("content", canonicalUrl);
 
-        const ogTitle = document.querySelector('meta[property="og:title"]');
+        let ogTitle = document.querySelector('meta[property="og:title"]');
         if (ogTitle) ogTitle.setAttribute("content", title);
+
+        let ogDescription = document.querySelector('meta[property="og:description"]');
+        if (ogDescription) ogDescription.setAttribute("content", description || "");
 
     }, [title, description, canonicalUrl]);
 
